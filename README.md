@@ -12,10 +12,11 @@
 - **JavaScript**: Thêm hiệu ứng và xử lý tương tác  
 - **XAMPP**: Môi trường máy chủ để chạy PHP và MySQL
   
-## Tiến độ phát triển
-- Thiết kế giao diện
-- Kết nối cơ sở dữ liệu
-- Hoàn thiện chức năng đặt hàng
+## Chức năng chính
+- Hiển thị danh sách sản phẩm
+- Thêm vào giỏ hàng
+- Tìm kiếm & lọc sản phẩm
+- Đăng ký & đăng nhập người dùng
   
 ## Ghi chú
 - Nếu có góp ý, vui lòng mở Issue trên GitHub.
