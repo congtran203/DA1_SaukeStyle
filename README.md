@@ -10,6 +10,13 @@
 - **MySQL**: Lưu trữ dữ liệu (sử dụng trong XAMPP)  
 - **HTML5 & CSS3**: Xây dựng giao diện  
 - **JavaScript**: Thêm hiệu ứng và xử lý tương tác  
-- **XAMPP**: Môi trường máy chủ để chạy PHP và MySQL  
-
+- **XAMPP**: Môi trường máy chủ để chạy PHP và MySQL
+  
+## Tiến độ phát triển
+- Thiết kế giao diện
+- Kết nối cơ sở dữ liệu
+- Hoàn thiện chức năng đặt hàng
+  
+## Ghi chú
+- Nếu có góp ý, vui lòng mở Issue trên GitHub.
 
