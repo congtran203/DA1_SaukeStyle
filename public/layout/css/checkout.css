@@ -1,0 +1,121 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Product Sans", sans-serif;
+    color: #252525;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row_space_between{
+    justify-content: space-between;
+
+}
+
+.products-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_chekout{
+    padding: 10px;
+}
+.checkout_container_left {
+    width: 55%;
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.checkout_container_right {
+    width: 40%;
+    background-color: #f2f2f2;
+    height: 250px;
+    border-radius: 3px;
+}
+
+.checkout_container_right a {
+    color: #2196F3;
+    font-size: 15px;
+}
+
+.input_text {
+    width: 70%;
+    margin: 20px auto;
+    /* Tự động căn giữa theo chiều ngang */
+    display: block;
+    /* Chuyển thành phần tử khối để margin auto hoạt động */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.col-50 label {
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 90px;
+}
+
+/* Thêm khoảng cách giữa các trường */
+.col-50 label,
+.col-50 input {
+    margin-top: 10px;
+    /* Tạo khoảng cách 10px giữa các trường */
+}
+
+.payment-options h3{
+    display: block;
+    /* margin-left: 120px; */
+    font-weight: bold;
+    color: #333;
+}
+
+.payment-options {
+    margin-left: 120px;
+    /* Đẩy nhóm phương thức thanh toán sang trái */
+}
+
+.payment-options label {
+    display: block;
+    /* Hiển thị mỗi radio trên một dòng */
+    margin-bottom: 10px;
+    /* Khoảng cách giữa các nhãn */
+    font-size: 16px;
+    /* Kích thước chữ */
+    cursor: pointer;
+    /* Con trỏ chuyển thành tay khi rê vào */
+}
+
+
+.payment-options input[type="radio"] {
+    margin-right: 10px;
+    /* Khoảng cách giữa radio và nhãn */
+    cursor: pointer;
+}
+.btns{
+    background-color: #f7941d;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.btns:hover {
+    background-color: #45a049;
+}

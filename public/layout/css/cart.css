@@ -1,0 +1,105 @@
+.cart_header{
+    margin: 4% 0;
+    text-align: center;
+}
+.cart_table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #FFA500;
+    margin: 0 auto;
+}
+
+.cart_table th, .cart_table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.cart_table thead th {
+    background-color: #FFA500;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cart_item{
+    
+}
+
+.cart_product {
+    display: flex;
+    align-items: center;
+}
+
+.product_image {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.product_name {
+    color: #333;
+}
+
+.product_quantity input {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.remove_item {
+    text-align: center;
+    color: hsl(0, 0%, 72%);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart_footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 15px;
+    width: 90%;
+}
+
+.total_label {
+    color: #333;
+}
+
+.total_number {
+    color: #FFA500;
+    margin-left: 5px;
+}
+
+.cart_button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 10px;
+    width: 90%;
+}
+
+.cart_button .continue_shopping, .cart_button .pay {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue_shopping {
+    background-color: #ddd;
+    color: #333;
+}
+
+.pay {
+    background-color: #FFA500;
+    color: #fff;
+}
+
+.pay:hover, .continue_shopping:hover {
+    opacity: 0.5;
+}

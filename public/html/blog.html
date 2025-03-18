@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="/layout/css/main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="container container_coppy">
+        <div class="header__top row">
+          <div class="header__top--logo">
+            <a href="#">
+              <img src="/layout/image/header/logo.png" alt="Logo" />
+            </a>
+          </div>
+          <div class="header__top--searchBar">
+            <input type="search" placeholder="Nhập từ khóa tìm kiếm" />
+            <span class="icon--search">
+              <i class="bx bx-search"></i>
+            </span>
+          </div>
+          <div class="header__top--user">
+            <a href="#">ĐĂNG KÝ</a>
+            <span class="line">|</span>
+            <a href="#">ĐĂNG NHẬP</a>
+            <span class="shopping--cart">
+              <i class="bx bx-cart-alt"></i>
+              <span>0</span>
+            </span>
+          </div>
+        </div>
+        <div class="header__bottom row">
+          <div class="menu__cate">
+            <p onclick="toggleSubMenu()">
+              <span><i class="bx bx-menu"></i></span>
+              <span>DANH MỤC SẢN PHẨM</span>
+            </p>
+            <ul class="submenu">
+              <li>
+                <a href="#"><i class="bx bxs-chevron-right"></i> GIƯỜNG</a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxs-chevron-right"></i> SOFA</a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxs-chevron-right"></i> ARMCHAIR</a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxs-chevron-right"></i> BÀN ĂN</a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxs-chevron-right"></i> GHẾ ĂN</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu__main">
+            <ul>
+              <li><a href="#">TRANG CHỦ</a></li>
+              <li><a href="#">GIỚI THIỆU</a></li>
+              <li>
+                <a href="#">SẢN PHẨM <i class="bx bxs-chevron-down"></i></a>
+                <ul class="submenu">
+                  <li><a href="#">SOFA</a></li>
+                  <li><a href="#">BÀN ĂN</a></li>
+                  <li><a href="#">GIƯỜNG</a></li>
+                  <li><a href="#">ARMCHAIR</a></li>
+                  <li><a href="#">GHẾ ĂN</a></li>
+                </ul>
+              </li>
+              <li><a href="#">TIN TỨC</a></li>
+              <li><a href="#">LIÊN HỆ</a></li>
+            </ul>
+          </div>
+          <div class="hotline">
+            <span><i class="bx bx-headphone"></i></span>
+            <span>Hotline:</span>
+            <span>09xxxxxxxx</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <body>
+      <div class="blog_container">
+        <div class="blog_header">
+          <h1 class="blog_title">Tin tức</h1>
+          <p class="blog_description">
+            Cập nhật các tin tức và xu hướng mới nhất về nội thất và trang trí
+            nhà cửa.
+          </p>
+        </div>
+
+        <div class="blog_list">
+          <div class="blog_post">
+            <a href="#" class="post_link">
+              <img
+                src="/layout/image/post/1.jpg"
+                alt="Bài viết 1"
+                class="post_image" />
+              <h2 class="post_title">Bài viết 1</h2>
+              <div class="post_meta">
+                <span class="author">Đăng bởi: Admin</span>
+                <span class="date">Ngày đăng: 01/11/2024</span>
+              </div>
+              <p class="post_excerpt">
+                Đối với nội thất bằng kim loại- Khi xử lý các vết bẩn thông
+                thường, bạn chỉ cần xị...
+              </p>
+            </a>
+          </div>
+
+          <div class="blog_post">
+            <a href="#" class="post_link">
+              <img
+                src="/layout/image/post/1.jpg"
+                alt="Bài viết 1"
+                class="post_image" />
+              <h2 class="post_title">Bài viết 1</h2>
+              <div class="post_meta">
+                <span class="author">Đăng bởi: Admin</span>
+                <span class="date">Ngày đăng: 01/11/2024</span>
+              </div>
+              <p class="post_excerpt">
+                Đối với nội thất bằng kim loại- Khi xử lý các vết bẩn thông
+                thường, bạn chỉ cần xị...
+              </p>
+            </a>
+          </div>
+
+          <div class="blog_post">
+            <a href="#" class="post_link">
+              <img
+                src="/layout/image/post/1.jpg"
+                alt="Bài viết 1"
+                class="post_image" />
+              <h2 class="post_title">Bài viết 1</h2>
+              <div class="post_meta">
+                <span class="author">Đăng bởi: Admin</span>
+                <span class="date">Ngày đăng: 01/11/2024</span>
+              </div>
+              <p class="post_excerpt">
+                Đối với nội thất bằng kim loại- Khi xử lý các vết bẩn thông
+                thường, bạn chỉ cần xị...
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </body>
+
+    <footer>
+      <div class="policy__content">
+        <div class="container">
+          <div class="policy__list">
+            <div class="policy__item">
+              <span class="img__policy">
+                <img src="layout/image/footer/policy1.png" alt="" />
+              </span>
+              <div class="title__policy">
+                <span>Giao hàng miễn phí</span>
+                <p>Với đơn trên 300.000đ</p>
+              </div>
+            </div>
+            <div class="policy__item">
+              <span class="img__policy">
+                <img src="layout/image/footer/policy2.png" alt="" />
+              </span>
+              <div class="title__policy">
+                <span>Hỗ trợ 24/7</span>
+                <p>Nhanh chóng thuận tiện</p>
+              </div>
+            </div>
+            <div class="policy__item">
+              <span class="img__policy">
+                <img src="layout/image/footer/policy3.png" alt="" />
+              </span>
+              <div class="title__policy">
+                <span>Đổi trả 3 ngày</span>
+                <p>Hấp dẫn chưa từng có</p>
+              </div>
+            </div>
+            <div class="policy__item">
+              <span class="img__policy">
+                <img src="layout/image/footer/policy4.png" alt="" />
+              </span>
+              <div class="title__policy">
+                <span>Giá tiêu chuẩn</span>
+                <p>Tiết kiệm 10% giá cả</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__footer">
+        <div class="container row">
+          <div class="footer__left">
+            <a href="#">
+              <img src="layout/image/header/logo.png" alt="" />
+            </a>
+            <h4>Siêu thị nội thất Sáuke Furniture</h4>
+            <div class="footer__hotline">
+              <ul>
+                <li>
+                  Trụ sở chính: 94 Trần Vĩ, Xã Ba Vì, Huyện Ba Vì, Hà Nội,
+                  Vietnam
+                </li>
+                <li>Hotline: 09xxxxxxxx</li>
+                <li>Email: dualeotheme@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__right row">
+            <div class="footer__right--list">
+              <h4>VỀ CHÚNG TÔI</h4>
+              <div class="list__menu">
+                <ul>
+                  <li><a href="#">Trang chủ</a></li>
+                  <li>
+                    <a href="">Giới thiệu</a>
+                  </li>
+                  <li><a href="">Sản phẩm</a></li>
+                  <li><a href="">Tin tức</a></li>
+                  <li><a href="">Liên hệ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__right--list">
+              <h4>TIN KHUYẾN MÃI</h4>
+              <div class="list__menu">
+                <ul>
+                  <li><a href="">Trang chủ</a></li>
+                  <li>
+                    <a href="">Giới thiệu</a>
+                  </li>
+                  <li>
+                    <a href="">Sản phẩm</a>
+                  </li>
+                  <li><a href="">Tin tức</a></li>
+                  <li><a href="">Liên hệ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__right--list">
+              <h4>TỔNG ĐÀI HỖ TRỢ</h4>
+              <p>
+                <span> 09xxxxxxxx </span>
+              </p>
+              <h4>NHẬN TIN KHUYẾN MÃI</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="layout/js/header.js"></script>
+  </body>
+</html>

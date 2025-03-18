@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../layout/css/checkout.css">
+</head>
+
+<body>
+    <div class="container row row_space_between">
+        <div class="checkout_container_left">
+            <div class="col-75">
+                <form action="/action_page.php">
+
+                    <div class="row_checkout">
+                        <div class="col-50">
+                            <h3" style="margin-left: 120px; font-size: 18px; font-weight: bold; color: #333;">Địa chỉ
+                                thanh toán
+                                </h3>
+                                <label for="fname"><i class="fa fa-user"></i> Họ và tên</label>
+                                <input class="input_text" type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                <input class="input_text" type="text" id="email" name="email" placeholder="john@example.com">
+                                <label for="adr"><i class="fa fa-address-card-o"></i> Địa chỉ</label>
+                                <input class="input_text" type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                                <label for="number"><i class="fa fa-institution"></i> Số điện thoại</label>
+                                <input class="input_text" type="text" id="number" name="number" placeholder="+84">
+                        </div>
+                    </div>
+                    
+                    <div class="payment-options">
+                        <h3>Phương thức thanh toán</h3>
+                        <label>
+                            <input type="radio" name="payment" value="credit_card" checked> Thanh toán bằng thẻ
+                        </label>
+                        <label>
+                            <input type="radio" name="payment" value="cash_on_delivery"> Thanh toán khi nhận hàng
+                        </label>
+                        <label>
+                            <input type="radio" name="payment" value="momo"> Thanh toán qua Momo
+                        </label>
+                    </div>
+                    <input type="submit" value="Continue to checkout" class="btns"
+                        style="width: 70%; margin-left: 120px;">
+                </form>
+
+            </div>
+        </div>
+        <div class="checkout_container_right">
+            <div class="col-25">
+                <div class="container_checkout">
+                    <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span>
+                    </h4>
+                    <p><a href="#">Product 1</a> <span class="price">Ođ</span></p>
+                    <p><a href="#">Product 2</a> <span class="price">0đ</span></p>
+                    <p><a href="#">Product 3</a> <span class="price">0đ</span></p>
+                    <p><a href="#">Product 4</a> <span class="price">0đ</span></p>
+                    <hr>
+                    <p>Tổng <span class="price" style="color:black"><b>0đ</b></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

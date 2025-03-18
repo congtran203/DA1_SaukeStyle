@@ -1,0 +1,155 @@
+.blogdetail_container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 100px; /* Khoảng cách với footer */
+  }
+  
+  .blog_header {
+    text-align: center; 
+  }
+  
+  .blog_title {
+    font-size: 24px;
+    color: #252525;
+    margin-bottom: 10px;
+  }
+  
+  .blog_detail .blogdetail_post {
+    margin-bottom: 50px;
+  }
+  
+  .blog_detail .post_image {
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px 10PX;
+    float: none;
+    display: block;
+    height: auto;
+    border-radius: 10px; 
+    margin-bottom: 20px;
+  }
+  
+  .blog_detail .post_title {
+    font-size: 20px;
+    color: #252525;
+    margin-bottom: 10px;
+  }
+  
+  .blog_detail .post_meta {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .blog_detail .post_meta span {
+    margin-right: 20px;
+  }
+  
+  .blog_detail .post_content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+  }
+  
+  .blog_detail .post_content p {
+    margin-bottom: 15px;
+  }
+  
+  .comment-section {
+    margin-top: 50px;
+    width: 50%;  
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .comment-section h3 {
+    color: #f7941d;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 25px; /* Tăng khoảng cách */
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 15px; 
+    border: 1px solid #f0f0f0; 
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    height: 200px; /* Tăng chiều cao */
+    resize: vertical;
+  }
+  
+  /* Đưa label vào bên trong input và textarea */
+  .form-group input,
+  .form-group textarea {
+    position: relative;
+  }
+  
+  .form-group label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #ccc;
+    pointer-events: none;
+    transition: 0.2s ease all;
+  }
+  
+  .form-group input:focus ~ label,
+  .form-group input:not(:placeholder-shown) ~ label,
+  .form-group textarea:focus ~ label,
+  .form-group textarea:not(:placeholder-shown) ~ label   {
+    top: 5px;
+    font-size: 12px;
+  }
+  
+  .comment-section button {
+    background-color: #f7941d;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comment-section button:hover {
+    background-color: #e68517;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(247, 148, 29, 0.5);
+  }
+  
+  .form-group input:invalid {
+    border-color: red; 
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    flex: 1; 
+    width: 45%; 
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: right; /* Canh lề phải cho label */
+  }

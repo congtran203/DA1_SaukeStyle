@@ -1,0 +1,106 @@
+.contact{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-container {
+  display: flex; 
+  justify-content: space-between;
+  width: 100%;
+  margin: 5% auto;
+}
+
+.contact-info {
+  width: 60%; /* Đặt chiều rộng của phần thông tin liên hệ */
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.map {
+  width: 60%; 
+  height: auto;
+}
+
+.map iframe {
+  width: 700px; /* Chiều rộng 100% của iframe */
+  height: 625px; /* Tăng chiều cao của iframe */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+/* Contact form styling */
+.contact-form {
+  width: 100%; /* Chiều rộng của form sẽ được điều chỉnh để phù hợp với layout */
+  max-width: 100%; /* Đặt chiều rộng tối đa để form không quá rộng */
+  border-radius: 5px;
+  margin-top: 60px;
+}
+
+.contact-form h2 {
+  font-size: 30px;
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  font-size: 20px;
+  color: var(--main-color-text);
+  display: block;
+  margin: 10px 0 1px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  color: var(--main-color-text);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--main-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e65c00;
+}
+
+.social-icons {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.phone-icon { background-color: #ff5e5e; }
+.zalo-icon { background-color: #157efb; }
+.messenger-icon { background-color: #0078FF; }

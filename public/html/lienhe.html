@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail</title>
+    <link rel="stylesheet" href="/layout/css/main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="header__top row">
+          <div class="header__top--logo">
+            <a href="#">
+              <img src="/layout/image/header/logo.png" alt="Logo" />
+            </a>
+          </div>
+          <div class="header__top--searchBar">
+            <input type="search" placeholder="Nhập từ khóa tìm kiếm" />
+            <span class="icon--search">
+              <i class="bx bx-search"></i>
+            </span>
+          </div>
+          <div class="header__top--user">
+            <a href="/layout/html/dangky.html">ĐĂNG KÝ</a>
+            <span class="line">|</span>
+            <a href="/layout/html/dangnhap.html">ĐĂNG NHẬP</a>
+            <span class="shopping--cart">
+              <i class="bx bx-cart-alt"></i>
+              <span>0</span>
+            </span>
+          </div>
+        </div>
+        <div class="header__bottom row">
+          <div class="menu__cate">
+            <p onclick="toggleSubMenu()">
+              <span><i class="bx bx-menu"></i></span>
+              <span>DANH MỤC SẢN PHẨM</span>
+            </p>
+            <ul class="submenu">
+              <li>
+                <a href="#"><i class="bx bxs-chevron-right"></i> GIƯỜNG</a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxs-chevron-right"></i> SOFA</a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxs-chevron-right"></i> ARMCHAIR</a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxs-chevron-right"></i> BÀN ĂN</a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxs-chevron-right"></i> GHẾ ĂN</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu__main">
+            <ul>
+              <li><a href="/layout/index.html">TRANG CHỦ</a></li>
+              <li><a href="/layout/html/gioithieu.html">GIỚI THIỆU</a></li>
+              <li>
+                <a href="#">SẢN PHẨM <i class="bx bxs-chevron-down"></i></a>
+                <ul class="submenu">
+                  <li><a href="#">SOFA</a></li>
+                  <li><a href="#">BÀN ĂN</a></li>
+                  <li><a href="#">GIƯỜNG</a></li>
+                  <li><a href="#">ARMCHAIR</a></li>
+                  <li><a href="#">GHẾ ĂN</a></li>
+                </ul>
+              </li>
+              <li><a href="#">TIN TỨC</a></li>
+              <li><a href="#">LIÊN HỆ</a></li>
+            </ul>
+          </div>
+          <div class="hotline">
+            <span><i class="bx bx-headphone"></i></span>
+            <span>Hotline:</span>
+            <span>09xxxxxxxx</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="banner">
+      <section class="title">
+        <p>Liên hệ</p>
+        <ul class="breadcrumb">
+          <li>
+            <a href="">Trang chủ</a>
+            <span>></span>
+          </li>
+          <li>
+            <a href="">Liên hệ</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="contact">
+      <section class="contact-container">
+        <div class="contact-info">
+          <h2>Thông tin liên hệ</h2>
+          <div class="contact-details">
+            <p>Địa chỉ: 123 Đường ABC, Thành phố XYZ</p>
+            <p>Điện thoại: 0123456789</p>
+            <p>Email: example@example.com</p>
+          </div>
+          <div class="contact-form">
+            <h2>Liên hệ với chúng tôi</h2>
+            <form>
+              <label for="name">Tên:</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Tin nhắn:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required></textarea>
+
+              <button type="submit">Gửi</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.247038338743!2d144.96305731572894!3d-37.81627997975194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0fbb95e7%3A0x5e31c5c3b5a8b2e7!2sFlinders%20Street%20Station!5e0!3m2!1sen!2sau!4v1630567488385!5m2!1sen!2sau"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"></iframe>
+        </div>
+      </section>
+      <section class="social-media">
+        <div class="social-icons">
+          <a href="tel:+123456789" class="icon phone-icon"></a>
+          <a href="https://zalo.me/" class="icon zalo-icon"></a>
+          <a href="https://messenger.com" class="icon messenger-icon"></a>
+          <a href="mailto:info@example.com" class="icon email-icon"></a>
+          <a href="https://maps.google.com" class="icon map-icon"></a>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="policy__content">
+        <div class="container">
+          <div class="policy__list">
+            <div class="policy__item">
+              <span class="img__policy">
+                <img src="layout/image/footer/policy1.png" alt="" />
+              </span>
+              <div class="title__policy">
+                <span>Giao hàng miễn phí</span>
+                <p>Với đơn trên 300.000đ</p>
+              </div>
+            </div>
+            <div class="policy__item">
+              <span class="img__policy">
+                <img src="layout/image/footer/policy2.png" alt="" />
+              </span>
+              <div class="title__policy">
+                <span>Hỗ trợ 24/7</span>
+                <p>Nhanh chóng thuận tiện</p>
+              </div>
+            </div>
+            <div class="policy__item">
+              <span class="img__policy">
+                <img src="layout/image/footer/policy3.png" alt="" />
+              </span>
+              <div class="title__policy">
+                <span>Đổi trả 3 ngày</span>
+                <p>Hấp dẫn chưa từng có</p>
+              </div>
+            </div>
+            <div class="policy__item">
+              <span class="img__policy">
+                <img src="layout/image/footer/policy4.png" alt="" />
+              </span>
+              <div class="title__policy">
+                <span>Giá tiêu chuẩn</span>
+                <p>Tiết kiệm 10% giá cả</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__footer">
+        <div class="container row">
+          <div class="footer__left">
+            <a href="#">
+              <img src="layout/image/header/logo.png" alt="" />
+            </a>
+            <h4>Siêu thị nội thất Sáuke Furniture</h4>
+            <div class="footer__hotline">
+              <ul>
+                <li>
+                  Trụ sở chính: 94 Trần Vĩ, Xã Ba Vì, Huyện Ba Vì, Hà Nội,
+                  Vietnam
+                </li>
+                <li>Hotline: 09xxxxxxxx</li>
+                <li>Email: dualeotheme@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__right row">
+            <div class="footer__right--list">
+              <h4>VỀ CHÚNG TÔI</h4>
+              <div class="list__menu">
+                <ul>
+                  <li><a href="#">Trang chủ</a></li>
+                  <li>
+                    <a href="">Giới thiệu</a>
+                  </li>
+                  <li><a href="">Sản phẩm</a></li>
+                  <li><a href="">Tin tức</a></li>
+                  <li><a href="">Liên hệ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__right--list">
+              <h4>TIN KHUYẾN MÃI</h4>
+              <div class="list__menu">
+                <ul>
+                  <li><a href="/layout/index.html">Trang chủ</a></li>
+                  <li>
+                    <a href="">Giới thiệu</a>
+                  </li>
+                  <li>
+                    <a href="">Sản phẩm</a>
+                  </li>
+                  <li><a href="">Tin tức</a></li>
+                  <li><a href="">Liên hệ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__right--list">
+              <h4>TỔNG ĐÀI HỖ TRỢ</h4>
+              <p>
+                <span> 09xxxxxxxx </span>
+              </p>
+              <h4>NHẬN TIN KHUYẾN MÃI</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/header.js"></script>
+  </body>
+</html>

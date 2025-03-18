@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link rel="stylesheet" href="/public/layout/css/main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header__top row">
+          <div class="header__top--logo">
+            <a href="#">
+              <img src="./image/header/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="header__top--searchBar">
+            <input type="search" value="" placeholder="Nhập từ khóa tìm kiếm" />
+            <span class="icon--search">
+              <i class="bx bx-search"></i>
+            </span>
+          </div>
+          <div class="header__top--user">
+            <a href="#"> ĐĂNG KÝ </a>
+            <span class="line">|</span>
+            <a href="#"> ĐĂNG NHẬP </a>
+            <span class="shopping--cart">
+              <i class="bx bx-cart-alt"></i>
+              <span>1</span>
+            </span>
+          </div>
+        </div>
+        <div class="header__bottom row">
+          <div class="menu__cate">
+            <p onclick="toggleSubMenu()">
+              <span><i class="bx bx-menu"></i></span>
+              <span>DANH MỤC SẢN PHẨM</span>
+            </p>
+            <ul class="submenu">
+              <li>
+                <a href=""><i class="bx bxs-chevron-right"></i> SOFA</a>
+              </li>
+              <li>
+                <a href=""><i class="bx bxs-chevron-right"></i> BÀN ĂN</a>
+              </li>
+              <li>
+                <a href=""><i class="bx bxs-chevron-right"></i> GIƯỜNG</a>
+              </li>
+              <li>
+                <a href=""><i class="bx bxs-chevron-right"></i> ARMCHAIR</a>
+              </li>
+              <li>
+                <a href=""><i class="bx bxs-chevron-right"></i> GHẾ ĂN</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu__main">
+            <ul>
+              <li><a href="">TRANG CHỦ</a></li>
+              <li><a href="">GIỚI THIỆU</a></li>
+              <li>
+                <a href="">SẢN PHẨM <i class="bx bxs-chevron-down"></i></a>
+                <ul class="submenu">
+                  <li><a href="">SOFA</a></li>
+                  <li><a href="">BÀN ĂN</a></li>
+                  <li><a href="">GIƯỜNG</a></li>
+                  <li><a href="">ARMCHAIR</a></li>
+                  <li><a href="">GHẾ ĂN</a></li>
+                </ul>
+              </li>
+              <li><a href="">TIN TỨC</a></li>
+              <li><a href="">LIÊN HỆ</a></li>
+            </ul>
+          </div>
+          <div class="hotline">
+            <span><i class="bx bx-headphone"></i></span>
+            <span>Hotline: </span>
+            <span>09xxxxxxxx</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="banner">
+      <section class="title">
+        <p>Sản Phẩm</p>
+        <ul class="breadcrumb">
+          <li>
+            <a href="">Trang chủ</a>
+            <span>></span>
+          </li>
+          <li>
+            <a href="">Sản Phẩm</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    
+
+    <div class="container">
+      <div class="row">
+        <aside class="sidebar">
+          <h2 class="sidebar-title">DANH MỤC</h2>
+          <ul class="menu">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li>
+              <li class="has-submenu">
+                <a href="#">Sản phẩm</a>
+                <ul class="submenu">
+                  <li><a href="#">Văn</a></li>
+                  <li><a href="#">Công</a></li>
+                </ul>
+              </li> 
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="#">Liên hệ</a></li>
+          </ul>
+        </aside>
+    
+        <div class="product-content"> 
+          <header class="product-sanpham">
+            <h1 class="product-title">Tất cả sản phẩm</h1>
+            <div class="sort-options">
+              Sắp xếp theo:
+              <select>
+                <option>Mặc định</option>
+                <option>Giá tăng dần</option>
+                <option>Giá giảm dần</option>
+              </select>
+            </div>
+          </header>
+    
+          <div class="product-list">
+            <div class="product-item">
+              <img src="/public/layout/image/products/aokhoac1.webp" alt="Bàn Aillen">
+              <h3 class="product-name">Bàn Aillen</h3>
+              <p class="product-price">1,300,000đ</p>
+            </div>
+            <div class="product-item">
+              <img src="/public/layout/image/products/aokhoac2.webp" alt="Bàn ARABICA">
+              <h3 class="product-name">Bàn ARABICA</h3>
+              <p class="product-price">600,000đ</p>
+            </div>
+            <div class="product-item">
+              <img src="/public/layout/image/products/aokhoac3.webp" alt="Bàn Binas">
+              <h3 class="product-name">Bàn Binas</h3>
+              <p class="product-price">900,000đ</p>
+            </div>
+            <div class="product-item">
+              <img src="/public/layout/image/products/aokhoac4.webp" alt="Bàn Aillen 01">
+              <h3 class="product-name">Bàn Aillen 01</h3>
+              <p class="product-price">460,000đ</p>
+            </div>
+            <div class="product-item">
+              <img src="/public/layout/image/products/aokhoac5.webp" alt="Bàn Aillen 01">
+              <h3 class="product-name">Bàn Aillen 01</h3>
+              <p class="product-price">460,000đ</p>
+            </div>
+            <div class="product-item">
+              <img src="/public/layout/image/products/aokhoac6.webp" alt="Bàn Aillen 01">
+              <h3 class="product-name">Bàn Aillen 01</h3>
+              <p class="product-price">460,000đ</p>
+            </div>
+            <div class="product-item">
+              <img src="/public/layout/image/products/aokhoac7.webp" alt="Bàn Aillen 01">
+              <h3 class="product-name">Bàn Aillen 01</h3>
+              <p class="product-price">460,000đ</p>
+            </div>
+            <div class="product-item">
+              <img src="/public/layout/image/products/aokhoac8.webp" alt="Bàn Aillen 01">
+              <h3 class="product-name">Bàn Aillen 01</h3>
+              <p class="product-price">460,000đ</p>
+            </div>
+            <div class="product-item">
+              <img src="/public/layout/image/products/aothun1.webp" alt="Bàn Aillen 01">
+              <h3 class="product-name">Bàn Aillen 01</h3>
+              <p class="product-price">460,000đ</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <footer>
+      <div class="policy__content">
+        <div class="container">
+          <div class="policy__list">
+            <div class="policy__item">
+              <span class="img__policy">
+                <img src="/public/layout/image/footer/policy1.png" alt="" />
+              </span>
+              <div class="title__policy">
+                <span>Giao hàng miễn phí</span>
+                <p>Với đơn trên 300.000đ</p>
+              </div>
+            </div>
+            <div class="policy__item">
+              <span class="img__policy">
+                <img src="/public/layout/image/footer/policy2.png" alt="" />
+              </span>
+              <div class="title__policy">
+                <span>Hỗ trợ 24/7</span>
+                <p>Nhanh chóng thuận tiện</p>
+              </div>
+            </div>
+            <div class="policy__item">
+              <span class="img__policy">
+                <img src="/public/layout/image/footer/policy3.png" alt="" />
+              </span>
+              <div class="title__policy">
+                <span>Đổi trả 3 ngày</span>
+                <p>Hấp dẫn chưa từng có</p>
+              </div>
+            </div>
+            <div class="policy__item">
+              <span class="img__policy">
+                <img src="/public/layout/image/footer/policy4.png" alt="" />
+              </span>
+              <div class="title__policy">
+                <span>Giá tiêu chuẩn</span>
+                <p>Tiết kiệm 10% giá cả</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__footer">
+        <div class="container row">
+          <div class="footer__left">
+            <a href="#">
+              <img src="./image/header/logo.png" alt="" />
+            </a>
+            <h4>Siêu thị nội thất Sáuke Furniture</h4>
+            <div class="footer__hotline">
+              <ul>
+                <li>
+                  Trụ sở chính: 94 Trần Vĩ, Xã Ba Vì, Huyện Ba Vì, Hà Nội,
+                  Vietnam
+                </li>
+                <li>Hotline: 09xxxxxxxx</li>
+                <li>Email: dualeotheme@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__right row">
+            <div class="footer__right--list">
+              <h4>VỀ CHÚNG TÔI</h4>
+              <div class="list__menu">
+                <ul>
+                  <li><a href="#">Trang chủ</a></li>
+                  <li>
+                    <a href="">Giới thiệu</a>
+                  </li>
+                  <li><a href="">Sản phẩm</a></li>
+                  <li><a href="">Tin tức</a></li>
+                  <li><a href="">Liên hệ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__right--list">
+              <h4>TIN KHUYẾN MÃI</h4>
+              <div class="list__menu">
+                <ul>
+                  <li><a href="">Trang chủ</a></li>
+                  <li>
+                    <a href="">Giới thiệu</a>
+                  </li>
+                  <li>
+                    <a href="">Sản phẩm</a>
+                  </li>
+                  <li><a href="">Tin tức</a></li>
+                  <li><a href="">Liên hệ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__right--list">
+              <h4>TỔNG ĐÀI HỖ TRỢ</h4>
+              <p>
+                <span> 09xxxxxxxx </span>
+              </p>
+              <h4>NHẬN TIN KHUYẾN MÃI</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/header.js"></script>
+  </body>
+</html>
